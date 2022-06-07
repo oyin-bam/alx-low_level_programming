@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- prints the lower case alphabets on 10 lines
+ * print_alphabet_x10- prints the lower case alphabets on 10 lines
  *
  * return: returns nothing. void
  */
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
