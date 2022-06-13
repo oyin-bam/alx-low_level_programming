@@ -17,15 +17,18 @@ void print_rev(char *s)
 		c++;
 	}
 
-	i = c - 1;
-	if (s[i] == '\0')
+	if (c != 0)
 	{
-		i--;
-	}
-	while (s[i] != '\0')
-	{
-		_putchar(s[i]);
-		i--;
+		i = c - 1;
+		if (s[i] == '\0')
+		{
+			i--;
+		}
+		while (s[i] != '\0')
+		{
+			_putchar(s[i]);
+			i--;
+		}
 	}
 	_putchar('\n');
 }
