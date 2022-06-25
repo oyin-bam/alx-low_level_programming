@@ -1,4 +1,4 @@
-#include<stdio.h>
+ginclude<stdio.h>
 
 /**
  * main- this function prints the lower case aplhabets
