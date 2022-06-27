@@ -15,23 +15,15 @@ char *str_concat(char *s1, char *s2)
 	int i, j, k, l, sum;
 	char *ptr;
 
-	if (s1[0] == '\0')
-		i = 0;
-	else{
-		i = 0;
-		while(s1[i] != '\0')
-		{
-			i++;
-		}
+	i = 0;
+	while (s1 && s1[i])
+	{
+		i++;
 	}
-	if (s2[0] == '\0')
-		j = 0;
-	else{
-		j = 0;
-		while (s2[j] != '\0')
-		{
-			j++;
-		}
+	j = 0;
+	while (s2 && s2[j])
+	{
+		j++;
 	}
 	sum = i + j + 1;
 	ptr = (char *)malloc(sum * sizeof(char));
